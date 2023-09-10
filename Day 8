@@ -49,5 +49,16 @@ def encrypt(plaint_text, shift_amount):
 
 encrypt(plain_text= text, shift_amount= shift)
 
+decrypted_text=""
+def decrypt(cipher_text, shift_val)
+    for letter in cipher_text
+        dposition= alphabet.index(letter)
+        old_position= dposition - shift_val
+        old_letter= alphabet[old_position}
+        decrypted_text += old_letter
+    paint(f"The decoded text is {decrypted_text}")
+
+decrypt(cipher_text= text, shift_val= shift)
+
 
 
